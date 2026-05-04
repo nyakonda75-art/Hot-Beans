@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><title>Hot Beans - Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" class="logo" alt="Logo">
+        <div class="menu-toggle" id="mobile-menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="team.html">Team</a>
+            <a href="careers.html">Careers</a>
+            <a href="training.html">Training</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+        </nav>
+    </header>
+    <section>
+        <h2>What People Are Saying</h2>
+        <p>
+            Every piece of feedback whether it is a glowing review or a constructive critique is treated as a high priority insight. I recognize that your time is valuable and choosing to share your experience is an act of partnership that I take seriously. By listening to your unique perspective I can move beyond assumptions and truly understand the nuances of your needs.
+        </p>
+        <div class="form-container">
+            <form id="review-form">
+                <input type="text" id="reviewer-name" placeholder="Your Name" required>
+                <textarea id="reviewer-text" placeholder="Write your review here..." required></textarea>
+                <button type="submit">Post Review</button>
+            </form>
+        </div>
+        <div id="review-list">
+            <!-- Reviews will show up here when you type them -->
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

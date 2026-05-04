@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hot Beans - Training</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- ANNOTATION: Put your logo here (images/logo.png) -->
+        <img src="images/logo.png" class="logo" alt="Logo">
+        
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="team.html">Team</a>
+            <a href="careers.html">Careers</a>
+            <a href="training.html">Training</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Our Training Programs</h2>
+        
+        <!-- ANNOTATION: Put a laptop/coding photo here (images/training.jpg) -->
+        <img src="images/training.jpg" class="page-img" alt="Training">
+        
+        <p>Talk about your training courses here. We provide hands-on video tutorials to help you master modern web development techniques. Watch our featured lessons below to get started.</p>
+
+        <!-- Video Section -->
+        <div class="video-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 40px;">
+            
+            <!--  Front End Developement  -->
+            <div class="video-card">
+                <!-- ANNOTATION: To use your own YouTube video, replace the URL after 'embed/' with your video's ID -->
+                <iframe width="100%" height="200" src="https://www.youtube.com/watch?v=brap7oBm_4c" frameborder="0" allowfullscreen style="border-radius: 10px;"></iframe>
+                <h3>Front End Developement</h3>
+                <p>
+                    This comprehensive tutorial teaches you to build modern web applications from scratch by mastering HTML, CSS, JavaScript, and the React framework.
+                </p>
+            </div>
+
+            <!-- Back End Developement -->
+            <div class="video-card">
+                <iframe width="100%" height="200" src="https://www.youtube.com/watch?v=1oTuMPIwHmk" frameborder="0" allowfullscreen style="border-radius: 10px;"></iframe>
+                <h3>Back End Developemen</h3>
+                <p>
+                    This tutorial teaches you how to master the Box Model and Flexbox in CSS to create responsive, well-structured website layouts with precision.
+                </p>
+            </div>
+
+            <!-- Full Stack Developement -->
+            <div class="video-card">
+                <iframe width="100%" height="200" src="https://www.youtube.com/watch?v=LzMnsfqjzkA" frameborder="0" allowfullscreen style="border-radius: 10px;"></iframe>
+                <h3>Full Stack Developement</h3>
+                <p>
+                    This tutorial teaches you how to master the CSS Grid layout system, enabling you to build complex, two-dimensional website designs with ease and efficiency.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
