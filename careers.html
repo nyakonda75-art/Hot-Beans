@@ -1,47 +1,92 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"><title>Hot Beans - Careers</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+
+  <!-- ALLOWS MOBILE VIEW -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hot Beans Web | Careers</title>
+
+  <!-- CSS FILE -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <img src="images/logo.png" class="logo" alt="Logo">
-        <div class="menu-toggle" id="mobile-menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
-        <nav class="nav-menu">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="team.html">Team</a>
-            <a href="careers.html">Careers</a>
-            <a href="training.html">Training</a>
-            <a href="reviews.html">Reviews</a>
-            <a href="contact.html">Contact</a>
-            <a href="privacy.html">Privacy</a>
-        </nav>
-    </header>
-    <section>
-        <h2>Join Hot Beans</h2>
-        <img src="images/office.jpg" class="page-img" alt="Careers">
-        <p>
-            At Hot Beans, we’re always looking for talented, motivated individuals who are passionate about web development and eager to grow in a fast-paced, creative environment. Whether you’re just starting out or already have industry experience, we offer opportunities to develop your skills, work on exciting projects, and be part of a supportive team that values innovation and collaboration.
 
-            Working at Hot Beans comes with a range of benefits designed to help you thrive both professionally and personally. You’ll gain hands-on experience with modern technologies, contribute to real client projects, and see the direct impact of your work. We encourage continuous learning, offering mentorship, training opportunities, and the chance to explore new tools and techniques. The work environment is flexible and team-focused, where ideas are welcomed and creativity is encouraged.
+<header>
+  <nav class="navbar">
 
-            Career progression is a key part of what we offer. We believe in recognising potential and helping our team members move forward. Junior developers are supported as they build confidence and technical ability, with clear pathways to mid-level and senior roles. As you grow, you’ll have opportunities to take on more responsibility, lead projects, and even mentor newer team members. We value ambition and provide the structure to turn that ambition into real career advancement.
+    <!-- LOGO -->
+    <img src="images/logo.png" alt="Hot Beans Web Logo" class="logo">
 
-            We’re looking for candidates who are enthusiastic, curious, and committed to producing high-quality work. Strong problem-solving skills, attention to detail, and a willingness to learn are just as important as technical knowledge. Teamwork is essential, as you’ll be collaborating with designers, developers, and clients to deliver the best possible results. Above all, we want people who take pride in what they create and are excited to be part of a growing company.
+    <input type="checkbox" id="menu-toggle">
 
-            If you’re ready to challenge yourself, build your career, and work in an environment where your ideas matter, Hot Beans could be the perfect place for you. Join us and be part of a team that’s shaping the future of web development.
-        </p>
-        <div class="form-container">
-            <form>
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email Address" required>
-                <textarea placeholder="Tell us why you want to work here..." required></textarea>
-                <button type="submit">Submit Application</button>
-            </form>
-        </div>
-    </section>
-    <script src="script.js"></script>
+    <!-- MENU ICON -->
+    <label for="menu-toggle" class="hamburger">
+      <span></span><span></span><span></span>
+    </label>
+
+    <!-- NAVIGATION -->
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="training.html">Training</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+    </ul>
+
+  </nav>
+</header>
+
+<section>
+
+  <h2>Careers</h2>
+
+  <!-- IMAGE -->
+  <img src="images/office.jpg" alt="Office workspace">
+
+  <p>
+    Join our team and develop your skills in a professional
+    web development environment.
+  </p>
+
+  <!-- APPLICATION FORM -->
+  <div class="form-container">
+
+    <form>
+
+      <input
+        type="text"
+        placeholder="Full Name"
+        required
+      >
+
+      <input
+        type="email"
+        placeholder="Email"
+        required
+      >
+
+      <!-- LONG ANSWER -->
+      <textarea
+        placeholder="Why do you want to work here?"
+        required>
+      </textarea>
+
+      <button type="submit">Apply</button>
+
+    </form>
+
+  </div>
+
+</section>
+
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
+
 </body>
 </html>
