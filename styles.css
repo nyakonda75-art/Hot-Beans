@@ -21,21 +21,21 @@ section { max-width: 1100px; margin: 50px auto; padding: 20px; text-align: cente
 .form-container { background: white; padding: 20px; border-radius: 10px; max-width: 500px; margin: 0 auto; }
 input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
 .btn-primary { background: var(--primary); color: white; padding: 15px 30px; border: none; cursor: pointer; font-weight: bold; width: 100%; border-radius: 5px; }
+/* --- Home Page Hero Image Styling --- */
 
-/* Hero Container Logic */
 .hero-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
     max-width: 1200px;
-    margin: 60px auto;
-    padding: 0 20px;
-    text-align: left; /* Changes text to left-aligned for better balance */
+    margin: 40px auto;
+    padding: 20px;
 }
 
 .hero-content {
     flex: 1;
+    text-align: left;
 }
 
 .hero-image {
@@ -44,19 +44,26 @@ input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid 
 
 .main-img {
     width: 100%;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-    display: block;
+    max-width: 550px; /* Limits the size so it doesn't overwhelm the page */
+    border-radius: 15px; /* Smooths the corners */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* Adds depth */
+    transition: transform 0.3s ease; /* Makes it interactive */
 }
 
-/* Ensure it looks good on mobile */
+.main-img:hover {
+    transform: scale(1.02); /* Slight zoom effect when hovered */
+}
+
+/* Mobile Fix: Stacks the text and image so they don't squash */
 @media (max-width: 950px) {
     .hero-container {
         flex-direction: column;
         text-align: center;
     }
-    
+    .hero-content {
+        order: 2; /* Text goes second */
+    }
     .hero-image {
-        order: -1; /* Puts image above text on mobile */
+        order: 1; /* Image goes first on phones */
     }
 }
