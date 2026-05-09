@@ -1,28 +1,91 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"><title>Hot Beans - Privacy</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hot Beans Web | Contact</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <img src="images/logo.png" class="logo" alt="Logo">
-        <div class="menu-toggle" id="mobile-menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
-        <nav class="nav-menu">
-            <a href="index.html">Home</a><a href="about.html">About</a><a href="team.html">Team</a>
-            <a href="careers.html">Careers</a><a href="training.html">Training</a>
-            <a href="reviews.html">Reviews</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a>
-        </nav>
-    </header>
-    <section style="text-align:left; max-width:800px; margin: 0 auto;">
-        <h2>Privacy Policy</h2>
-        <p>
-            At Hot Beans, the security of your personal information is a foundational priority. We recognize that when you share your details via our online forms whether you are applying for a career or reaching out with an inquiry you are placing your trust in us. We take that responsibility seriously.
-        </p>
-        <p>
-            At Hot Beans, your privacy is never for sale. We maintain a strict policy of not sharing your data with third parties, ensuring that your personal information remains within our secure ecosystem and is never traded or used for external marketing purposes.
-        </p>
-    </section>
-    <script src="script.js"></script>
+
+<header>
+  <nav class="navbar">
+
+    <!-- LOGO -->
+    <img src="images/logo.png" alt="Hot Beans Web Logo" class="logo">
+
+    <input type="checkbox" id="menu-toggle">
+
+    <!-- HAMBURGER MENU -->
+    <label for="menu-toggle" class="hamburger">
+      <span></span><span></span><span></span>
+    </label>
+
+    <!-- NAVIGATION -->
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="training.html">Training</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+    </ul>
+
+  </nav>
+</header>
+
+<section>
+
+  <h2>Contact Us</h2>
+
+  <!-- IMAGE -->
+  <img src="images/contact.png" alt="Contact Hot Beans Web">
+
+  <p>Send us a message using the form below.</p>
+
+  <!-- CONTACT DETAILS -->
+  <p>Email: info@hotbeansweb.co.uk</p>
+  <p>Phone: 020 7946 3821</p>
+
+  <!-- CONTACT FORM -->
+  <div class="form-container">
+
+    <form>
+
+      <input
+        type="text"
+        placeholder="Name"
+        required
+      >
+
+      <input
+        type="email"
+        placeholder="Email"
+        required
+      >
+
+      <textarea
+        placeholder="Message"
+        required>
+      </textarea>
+
+      <button type="submit">Send</button>
+
+    </form>
+
+  </div>
+
+</section>
+
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
+
 </body>
 </html>
