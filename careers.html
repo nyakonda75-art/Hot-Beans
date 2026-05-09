@@ -1,42 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hot Beans Web | Careers</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers | Hot Beans Web</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-  <nav class="navbar">
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="team.html">Team</a></li>
-      <li><a href="careers.html">Careers</a></li>
-      <li><a href="training.html">Training</a></li>
-      <li><a href="reviews.html">Reviews</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="privacy.html">Privacy</a></li>
-    </ul>
-    <img src="images/logo.png" alt="Hot Beans Web Logo" class="logo">
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="hamburger"><span></span><span></span><span></span></label>
-  </nav>
-</header>
-<section>
-  <h2>Careers</h2>
-  <img src="images/office.jpg" alt="Office workspace" class="featured-image">
-  <p>Join our team and develop your skills in a professional environment.</p>
-  <div class="form-container">
-    <form>
-      <input type="text" placeholder="Full Name" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Why do you want to work here?" rows="5" required></textarea>
-      <button type="submit" class="btn-primary">Apply Now</button>
-    </form>
-  </div>
-</section>
-<script src="script.js"></script>
+    <header>
+        <nav class="navbar">
+            <div class="logo-side"><img src="images/logo.png" alt="Logo" class="logo"></div>
+            <div class="menu-side">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger"><span></span><span></span><span></span></label>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="training.html">Training</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <h2>Join Our Team</h2>
+        <div class="form-container">
+            <form><input type="text" placeholder="Name" required><input type="email" placeholder="Email" required><textarea placeholder="Cover Letter"></textarea><button type="submit" class="btn-primary">Apply</button></form>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
