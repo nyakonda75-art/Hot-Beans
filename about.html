@@ -1,41 +1,69 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"><title>Hot Beans - About</title>
-    <link rel="stylesheet" href="styles.css">
+  <!-- CHARACTER ENCODING -->
+  <meta charset="UTF-8">
+
+  <!-- RESPONSIVE DESIGN -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hot Beans Web | About</title>
+
+  <!-- LINK TO CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <img src="images/logo.png" class="logo" alt="Logo">
-        <div class="menu-toggle" id="mobile-menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
-        <nav class="nav-menu">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="team.html">Team</a>
-            <a href="careers.html">Careers</a>
-            <a href="training.html">Training</a>
-            <a href="reviews.html">Reviews</a>
-            <a href="contact.html">Contact</a>
-            <a href="privacy.html">Privacy</a>
-        </nav>
-    </header>
-    <section>
-        <h2>Our Journey</h2>
-        <img src="images/about.jpg" class="page-img" alt="About Us">
-        <p>
-            Hot Beans began as a small, passionate idea—just a couple of developers with a shared interest in building better websites. In the early days, the focus was simple: create clean, functional sites for local businesses that needed a stronger online presence. Working from limited resources, the team relied heavily on creativity, determination, and a genuine love for web development to get projects off the ground.
 
-            As the company grew, so did the ambition. Taking on larger and more complex projects brought new challenges. Tight deadlines, evolving technologies, and the need to stand out in a competitive industry all pushed Hot Beans to improve constantly. There were moments where projects didn’t go as planned, where solutions had to be rethought and rebuilt, but those experiences helped shape a stronger, more adaptable team. Each challenge became an opportunity to refine skills, improve processes, and raise standards.
+<!-- NAVIGATION -->
+<header>
+  <nav class="navbar">
 
-            A key turning point came when Hot Beans began focusing not just on building websites, but on creating complete digital experiences. This shift meant investing more time in user experience, performance optimization, and long-term client success. It also meant staying up to date with modern tools and trends, ensuring that every project met the expectations of a fast-changing digital world.
+    <!-- LOGO IMAGE -->
+    <img src="images/logo.png" alt="Hot Beans Web Logo" class="logo">
 
-            What has remained constant throughout the journey is the passion behind the work. Web development isn’t just a service for Hot Beans—it’s a craft. Every line of code, every design decision, and every finished product reflects a commitment to quality and attention to detail. The team takes pride in building websites that are not only visually appealing but also reliable, efficient, and built to last.
+    <!-- MOBILE MENU SYSTEM -->
+    <input type="checkbox" id="menu-toggle">
 
-            Looking ahead, Hot Beans aims to continue growing while staying true to its core values. The goal is to work with a wider range of clients, take on more innovative projects, and keep pushing the boundaries of what’s possible on the web. At the same time, the company remains committed to maintaining the personal touch and dedication that defined its early days.
+    <!-- HAMBURGER -->
+    <label for="menu-toggle" class="hamburger">
+      <span></span><span></span><span></span>
+    </label>
 
-            The story of Hot Beans is one of growth, resilience, and passion—and it’s still being written.
-        </p>
-    </section>
-    <script src="script.js"></script>
+    <!-- MENU LINKS -->
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="training.html">Training</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="privacy.html">Privacy</a></li>
+    </ul>
+
+  </nav>
+</header>
+
+<section>
+  <h2>About Us</h2>
+
+  <!-- IMAGE -->
+  <img src="images/about.jpg" alt="About Hot Beans Web">
+
+  <p>
+    Hot Beans Web is a web development company focused on building
+    modern, high-quality websites.
+  </p>
+
+  <p>
+    We focus on performance, design, and user experience
+    to help businesses succeed online.
+  </p>
+</section>
+
+<!-- JAVASCRIPT -->
+<script src="script.js"></script>
+
 </body>
 </html>
