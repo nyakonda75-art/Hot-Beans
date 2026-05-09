@@ -2,32 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-
-  <!-- ALLOWS MOBILE VIEW -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Hot Beans Web | Careers</title>
-
-  <!-- CSS FILE -->
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
 <header>
   <nav class="navbar">
-
-    <!-- LOGO -->
-    <img src="images/logo.png" alt="Hot Beans Web Logo" class="logo">
-
-    <input type="checkbox" id="menu-toggle">
-
-    <!-- MENU ICON -->
-    <label for="menu-toggle" class="hamburger">
-      <span></span><span></span><span></span>
-    </label>
-
-    <!-- NAVIGATION -->
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -38,55 +19,24 @@
       <li><a href="contact.html">Contact</a></li>
       <li><a href="privacy.html">Privacy</a></li>
     </ul>
-
+    <img src="images/logo.png" alt="Hot Beans Web Logo" class="logo">
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger"><span></span><span></span><span></span></label>
   </nav>
 </header>
-
 <section>
-
   <h2>Careers</h2>
-
-  <!-- IMAGE -->
-  <img src="images/office.jpg" alt="Office workspace">
-
-  <p>
-    Join our team and develop your skills in a professional
-    web development environment.
-  </p>
-
-  <!-- APPLICATION FORM -->
+  <img src="images/office.jpg" alt="Office workspace" class="featured-image">
+  <p>Join our team and develop your skills in a professional environment.</p>
   <div class="form-container">
-
     <form>
-
-      <input
-        type="text"
-        placeholder="Full Name"
-        required
-      >
-
-      <input
-        type="email"
-        placeholder="Email"
-        required
-      >
-
-      <!-- LONG ANSWER -->
-      <textarea
-        placeholder="Why do you want to work here?"
-        required>
-      </textarea>
-
-      <button type="submit">Apply</button>
-
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Why do you want to work here?" rows="5" required></textarea>
+      <button type="submit" class="btn-primary">Apply Now</button>
     </form>
-
   </div>
-
 </section>
-
-<!-- JAVASCRIPT -->
 <script src="script.js"></script>
-
 </body>
 </html>
