@@ -1,36 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Defines character set -->
   <meta charset="UTF-8">
-
-  <!-- Makes page responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Hot Beans Web | Home</title>
-
-  <!-- Link CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-<!-- NAVBAR -->
 <header>
   <nav class="navbar">
-
-    <!-- LOGO -->
-    <img src="images/logo.png" alt="Hot Beans Web Logo">
-
-    <!-- MOBILE MENU TOGGLE -->
-    <input type="checkbox" id="menu-toggle">
-
-    <!-- HAMBURGER ICON -->
-    <label for="menu-toggle" class="hamburger">
-      <span></span><span></span><span></span>
-    </label>
-
-    <!-- NAV LINKS -->
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -41,34 +19,21 @@
       <li><a href="contact.html">Contact</a></li>
       <li><a href="privacy.html">Privacy</a></li>
     </ul>
-
+    <img src="images/logo.png" alt="Hot Beans Web Logo" class="logo">
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger"><span></span><span></span><span></span></label>
   </nav>
 </header>
-
-<!-- HERO -->
 <section class="hero">
   <h1>Welcome to Hot Beans Web</h1>
   <p>Building modern websites that help businesses grow.</p>
+  <a href="contact.html" class="btn-primary" style="text-decoration:none; display:inline-block; margin-top:15px; width:auto; padding: 12px 30px;">Get Started</a>
 </section>
-
-<!-- MAIN CONTENT -->
 <section>
   <h2>What We Do</h2>
-
-  <!-- IMAGE -->
-  <img src="images/home-services.jpg" alt="Our web services">
-
-  <p>
-    We design and develop high-quality websites that are fast, responsive,
-    and easy to use.
-  </p>
-
-  <p>
-    Our goal is to help businesses build a strong online presence.
-  </p>
+  <img src="images/home-services.jpg" alt="Our web services" class="featured-image">
+  <p>We design and develop high-quality websites that are fast, responsive, and easy to use.</p>
 </section>
-
 <script src="script.js"></script>
-
 </body>
 </html>
